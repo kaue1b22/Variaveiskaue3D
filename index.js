@@ -19,6 +19,33 @@ console.log(`ola sou ${nomeCompleto} eu tenho ${idade} anos e estou cursando ${c
 
 //agencia de viagens
 
+console.log("      /\\             /\\       ");
+console.log("     /  \\           /  \\     ");
+console.log("    (  <0>         <0>  )    ");
+console.log("              w                 ");
+console.log("-----------------------------");
+console.log("           LOGIN             ");
+console.log("-----------------------------");
+
+const LoginCerto = "diluc";
+const SenhaCerta = "1234";
+
+var login = entrada("digite seu login: ")
+var senha = entrada("digite sua senha: ")
+
+while(login != LoginCerto ) {
+  console.log ("usuario não encontrado")
+  login = entrada("tente novamente: ")
+}
+
+while(senha != SenhaCerta) {
+  console.log("senha incorreta")
+  senha = entrada("tente novamente: ")
+}
+
+
+
+
 var nomeComprador = entrada("qual é seu nome?")
 var cpfComprador = entrada("qual é seu cpf?");
 var idadeComprador = entrada("qual sua idade?");
